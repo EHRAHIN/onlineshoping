@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**********************
+     costom font link
+********************** */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Rubik:wght@300;400&family=Ubuntu&family=Work+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Rubik:wght@300;400&family=Square+Peg&family=Ubuntu&family=Work+Sans:ital,wght@1,200&display=swap');
+/* ****************************
+            header
+*******************************/
+header{
+    background-color: #6fa176;
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) 0 6px 20px 0;
+}
+
+.logo img{
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.manu-btn ul{
+    list-style: none;
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.manu-btn ul li{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    display: flex;
+    width: auto;
+}
+.manu-btn ul li:hover{
+    opacity: 0.8;
+    color: #00171F;
+    transition: .5s;
+}
+
+/* ****************************
+            home
+*******************************/
+#home{
+    background-color: rgba(230, 227, 227, 0.641);
+}
+.home-info :nth-child(1){
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home-info :nth-child(2){
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    font-family: 'Square Peg', cursive;
+}
+.p-color{
+    color: orange;
+}
+.home-info img{
+    width: 25px;
+    margin-right: 2px;
+    
+}
+.buy-btn{
+    display: flex;
+    background-color: #6fa176;
+    padding: 1rem 2.6rem;
+    border: none;
+    border-radius: 10px;
+    align-items: center; 
+    justify-content: center; 
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buy-btn:hover{
+    letter-spacing: 1px;
+    color: black;
+    background-color: white;
+}
+.buy-btn img{
+    display: inline;
+    margin-right: 5px;
+    width: 30%;
+}
+.home-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 25%;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem;
+
+}
+.model-img img{
+    width: 100%;
+}
+
+
+/* ****************************
+            products men
+*******************************/ 
+
+.women-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto; 
+    width: auto;
+    height: auto;
+    
+       
+}
+#women-products{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: 'Work Sans', sans-serif;
+}
+.products-heading{
+    margin: 50px 90px;
+    
+    
+}
+.products-heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.product1{
+    border: none;
+    /* height: 560px; */
+    width: 400px;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: #00171f32 2px 40px 25px -10px;
+    transition: 0.3s;
+    
+    
+}
+.product1:hover{
+    padding-top: 1px;
+}
+.product-btn{
+    display: flex;
+    background-color: #6fa176;
+    padding: 0.6rem 1.3rem;
+    border: none;
+    border-radius: 10px;
+    align-items: center; 
+    justify-content: center; 
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.product-btn img{
+    width: 25%;
+}
+.product-btn:hover{
+    letter-spacing: 1px;
+    color: black;
+    background-color: rgb(255, 154, 154);
+}
+.product-price{
+    display: flex;
+    justify-content: space-between;
+}
+.product-info h1{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+.product-info p{
+    font-size: 15px;
+    padding-left:10px;
+    padding-right: 15px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.product-price p{
+    font-size: 35px;
+    color: orange;
+    font-weight: bolder;
+    margin-top:10px ;
+    margin-left: 8px;
+    margin-bottom: 5px;
+
+}
+.product1 .product-img{
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+    /* padding-right: 83px;
+    padding-top: 10px; */
+    /* padding-bottom: 15px; */
+    padding: 15%;
+    width: 70%;
+}
+.product-info p{
+    text-align: justify;
+}
+
+/***********************
+        footer
+************************/
+
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    margin-left:8.7%;
+    margin-right: auto;
+    width: 150%;
+    margin-top: 10%;
+}
+.main-div .box-img img{
+    width: 30%;
+    
+}
+.left-box{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    box-shadow: #00171f32 0 20px 30px -5px;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+.box-img img{
+    margin-top: 7%;
+}
+
+.box{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+.footer-info{
+    padding: 30px 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.footer-img img{
+    width: 50%;
+    margin-left: 25%;
+    
+}
+footer{
+    padding: 1%;
+    background-color: #00171F;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+footer p,h1{
+    margin-bottom: 30px;
+    color: white;  
+    text-align: center;  
+}
+footer h1{
+    margin-bottom: 5px;
+}
+footer p:nth-child(2){
+    margin-bottom: 5px;
+}
+footer a{
+    font-size: 30px;
+    margin: 10px;
+}
+footer div{
+    display: inline;
+    margin-left: 42.5%;
+}
+.fa-brands{
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    border-radius: 40px;
+    background-color: white;
+    overflow: hidden;  
+    transition: .6s;
+}
+.fa-brands:hover{
+    transform: translate(0, -10px);
+
+}
+ div a:nth-child(1):hover .fa-brands{
+    background-color:rgb(255, 255, 255);
+    color: dodgerblue;
+}
+div a:nth-child(2):hover .fa-brands{
+    background-color:rgb(255, 255, 255);
+    color: rgb(255, 0, 179);
+}
+div a:nth-child(3):hover .fa-brands{
+    background-color:rgb(255, 255, 255);
+    color:deepskyblue;
+}
+div a:nth-child(4):hover .fa-brands{
+    background-color:rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+
+/***********************
+    responsive
+************************/
+
+@media (max-width:700px) {
+    .home-main-container{
+       display: block;
+       align-items: center;
+       justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .home-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:490px) {
+    .header-container{
+        display: flex;
+    }
+}
+@media (max-width:1530px) {
+    .women-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:980px) {
+    .women-container{
+        display: block;
+        
+    }
+}
+@media (max-width:490px) {
+    #home{
+        width: max-content;
+    }
+    header{
+        width: max-content;
+        padding-left: 12%;
+    }
+    .home-main-container{
+        width: max-content;
+    }
+    
+}
+@media (max-width:1320px) {
+    .main-div{
+        display: block;    
+    }
+    .box-img img{
+        width: 40%;
+        margin-left: 9%;
+    }
+    .left-box{
+        width: 50%;
+    }
+    footer div{
+        margin-left: 38%;
+        
+    }
+
+    
+}
+@media (max-width:980px) {
+    .main-div{
+        display: block;
+    }
+    .box-img img{
+        width: 30%;
+        margin-left: 9%;
+    }
+     footer div{
+        margin-left: 35%;
+        
+    }
+}
+@media (max-width:600px){
+    footer div{
+        margin-left: 25%;
+        
+    }
+
+}
+@media (max-width:395px){
+    footer div{
+        margin-left: 15%;
+        
+    }
+
+}
