@@ -237,6 +237,7 @@ header{
     margin-right: auto;
     width: 150%;
     margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
 }
 .main-div .box-img img{
     width: 30%;
@@ -275,6 +276,7 @@ footer{
     margin-right: auto;
     justify-content: center;
     align-items: center;
+    font-family: 'Josefin Sans', sans-serif
 }
 footer p,h1{
     margin-bottom: 30px;
